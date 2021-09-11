@@ -1,0 +1,46 @@
+article{
+    margin-bottom: 600px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2, h5{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#inicio{
+    margin: 10px;
+    width:95%;
+    height: 800px;
+    background-image: url("./imgs/fundo.jpg");
+    background-size: 100%;
+    background-position: 30% 50%;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.curso{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.items figure img{
+    width:100px;
+    height: auto;
+    margin:10px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.items h4{
+    text-align: center;
+}

@@ -1,0 +1,165 @@
+Operadores Lógicos e relacionais.
+
+1. – Sendo A=3, B=7 e C=4, informe se as expressões abaixo são verdadeiras ou falsas.
+
+a) (a+c)>b
+b) b>=(a+2)
+c) c = (b-a)
+d) (b+a)<=c
+e) (c+a)>b 
+
+2. – Sendo A=5, B=4 e C=3 e D=6, informe se as expressões abaixo são verdadeiras ou falsas.
+
+a) ( a > c ) E ( c <= d )
+b) ( a + b ) > 10 OU ( a + b ) = ( c + d )
+c) ( a >= c ) E ( d >= c )
+
+3.  – informe se as expressões abaixo são verdadeiras ou falsas.
+
+a) (5>=2) ||  4 == 9 && 3 != 8 && ( 9 < 15 )
+b) 87 != 100 && (( 10 == 130 && 8 < 2) || (30 % 5 == 0))
+c) !(( true && !false ) && false || true && !true)
+d) !false && (false || true) || !(true && ! false) && (!false && !false) 
+e) !(( true && !false ) && false || !(true && !true))
+1) Crie um programa que receba o lado de um quadrado e calcule:
+-diagonal
+-perimetro
+-área
+
+2) Crie um programa que receba o raio de um círculo e calcule:
+-comprimento
+-área
+
+3) Faça um programa que receba a distância em metros por segundo e transforme em quilometros por hora.
+
+4) Crie um programa que receba a distância percorrida (metros) e o tempo e calcule a velocidade média de um veículo.
+
+5) Crie um programa que receba 3 notas e calcule:
+-a maior nota.
+-a menor nota.
+-média das três notas.
+
+6) Faça um programa que receba uma temperatura em Celsius e imprima o valor equivalente em Kelvin e Farenheight.
+
+7) Faça um programa, utilizando operador ternário que diga se um número é par, ou ímpar.
+
+8) Digite um programa que calcule a porcentagem x de um valor y.
+
+9) Faça um programa que calcule o acréscimo e desconto de um certo produto através de uma porcentagem.
+
+Operador ternário
+Utilize o operador ternário para resolver as seguintes questões.
+
+1) O maior entre dois números.
+
+2) Se um número é par, ou ímpar.
+
+3) Se um número é negativo, ou positivo.
+
+4) Se o número é múltiplo de 6.
+
+estruturas de decisão 
+
+1) Faça um programa que verifique a idade do doador e se for superior a 16 e menor do que 69 e depois receba o tipo sanguíneo de alguém e imprima de quem pode receber e a quem pode doar (desconsidere o fator RH).
+
+2) Elabore um programa que calcule as raízes da equação do segundo grau.
+
+3) Digite um código que receba o valor e o pagamento de um produto.
+-Se o pagamento for à vista o preço é normal.
+-Se o pagamento for à prazo o cliente pode escolher pagar em 3x,5x,8x.
+-Se o pagamento for à prazo acrescente 15% de juros e calcule as parcelas.
+
+4) Codifique um programa que verifique o número de horas trabalhadas por um funcionário e o salário base (horas = salárioBase /220). 
+-Verificar se o número de horas é válido (maior que 0 e menor que 12)
+-Se o número exceder 8 horas, calcular a hora extra. (50% acrescido na hora normal).
+
+5) Faça um script que leia 3 números e os mostre em ordem decrescente.
+
+6) Faça um script que lê as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
+
+      Média de Aproveitamento  Conceito
+      Entre 9.0 e 10.0          	      A
+      Entre 7.5 e 9.0              	      B
+      Entre 6.0 e 7.5              	      C
+      Entre 4.0 e 6.0              	      D
+      Entre 4.0 e zero            	      E
+    O algoritmo deve mostrar numa janela de alert as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
+
+7) Faça um script que leia um número inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo.
+Observando os termos no plural a colocação do "e", da vírgula entre outros. Exemplo:
+
+326 = 3 centenas, 2 dezenas e 6 unidades
+12 = 1 dezena e 2 unidades Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
+
+8) Faça um script para um caixa eletrônico. O script deverá perguntar ao usuário a valor do saque e depois informar quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo é de 10 reais e o máximo de 600 reais. O script não deve se preocupar com a quantidade de notas existentes na máquina.
+
+1 Exemplo: Para sacar a quantia de 256 reais, o script fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1;
+
+2 Exemplo: Para sacar a quantia de 399 reais, o script fornece três notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
+
+9) Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+    Álcool: até 20 litros, desconto de 3% por litro
+    acima de 20 litros, desconto de 5% por litro
+
+    Gasolina:
+    até 20 litros, desconto de 4% por litro
+    acima de 20 litros, desconto de 6% por litro Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
+
+Estruturas de repetição
+
+1) Verificar se o número é um quadrado perfeito.
+
+2) Calcular o fatorial de um número.
+
+Especial
+
+Verificar se o número é um número decimal ou não!
+
+3) Somatório dos  primeiros 20 números ímpares e os primeiros 20 números pares, cada um com a sua variável.
+
+4) Fazer o somatório dos cem primeiros termos da sequência. 1 + 1/2 + 1/3 + 1/4 + ... + 1/100.
+
+5) Imprimir os N termos da sequência de Fibonacci.
+
+6) Descobrir se um número é primo ou não.
+
+7) Codifique um programa que leia um vetor de N termos e some todos os seus termos.
+
+8) Elabore um programa que leia um vetor de N termos e eleve cada um deles ao quadrado.
+
+9) Faça um programa que leia um vetor de N termos diga qual foi o maior valor, o menor valor e a média dos seus termos. 
+
+10) Programa que leia um vetor e inverta as posições do mesmo.
+
+11) Faça um programa que imprima uma matriz.
+
+12) digite um programa que imprima uma matriz 4X4 e some os valores da diagonal principal em uma variável e os da diagonal segundária em outra.
+
+13) Faça um programa de um caixa 24 horas. As opções para o cliente serão 
+1- saldo
+retorna o saldo da conta
+2- saque
+verifica se tem saldo é igual ou maior que o valor do saque.
+se verdadeiro subtrai-se o valor do saque e efetua o pagamento.
+se falso retorna saldo insuficiente.
+
+3- depósito
+soma o valor do depósito ao saldo total.
+
+4- encerrar o atendimento.
+
+14) Faça um sistema com a seguinte lista de opções:
+
+1- Cadastrar aluno.
+2- Atribuir notas ao aluno.
+3- Atribuir faltas ao aluno.
+4- Imprimir resultado:
+	- se a presença for < 75%. reprovado por falta.
+	- se a nota for < 7.0 imprimir reprovado por nota.
+	- Imprimir nome do aluno, se o aluno foi aprovado, ou reprovado, notas, média e faltas.
+
+Link do grupo whatsapp:
+
+https://chat.whatsapp.com/K1xaUzFKG1ICgrGUhgRDF8
+
+

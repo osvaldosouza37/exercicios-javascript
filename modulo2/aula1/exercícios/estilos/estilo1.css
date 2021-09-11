@@ -1,0 +1,55 @@
+body{
+    background-color: salmon;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+header{
+    background-color: silver;
+    padding: 5px;
+    margin: 10px;
+}
+nav{
+    background-color: aquamarine;
+    margin: 5px;
+    padding:5px;
+}
+main{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+main div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+aside{
+    height: 250px;
+    background-color: orangered;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+section{
+    color: aliceblue;
+    height: 250px;
+    background-color: black;
+    width: 63%;
+    margin: 10px;
+    padding: 10px;
+}
+article{
+    color: black;
+    height: 80px;
+    background-color: aliceblue;
+}
+footer{
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+}

@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
