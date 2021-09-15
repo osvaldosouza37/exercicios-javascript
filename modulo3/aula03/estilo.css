@@ -1,0 +1,11 @@
+.item{
+    width:300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.completo{
+    text-decoration: line-through;
+}

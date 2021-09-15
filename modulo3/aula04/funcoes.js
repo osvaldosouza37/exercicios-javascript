@@ -1,0 +1,12 @@
+var elemento1 = document.getElementsByTagName('h2')
+var elemento2 = document.getElementsByName('jogao')
+var elemento3 = document.getElementsByClassName('subtitulo')
+var elemento4 = document.getElementById('container')
+
+var elemento5 = document.querySelector('h2')
+var elemento6 = document.querySelectorAll('h2')
+var elemento7 = document.querySelector('.subtitulo')
+var elemento8 = document.querySelector('#container')
+var elemento9 = document.getElementsByTagName('div')
+var elemento10 = document.querySelectorAll('p')
+console.log(elemento9[2].children[0])

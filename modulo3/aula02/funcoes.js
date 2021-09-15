@@ -294,7 +294,7 @@ if(numero>0 && numero <=999){
 }else{
     console.log('número inválido!')
 }
-*/
+
 
 var saque = prompt("digite a quantia a ser sacada.")
 
@@ -322,7 +322,13 @@ if(saque>=10 && saque<=600){
 }else{
     console.log('quantia inválida.');
 }
+*/
 
+
+if(true)
+    console.log('é verdadeiro')
+else 
+    console.log('é falso')    
 
 
 
