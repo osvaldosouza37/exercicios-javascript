@@ -1,0 +1,31 @@
+.made{
+    display:flex;
+    flex-direction: row;
+    margin-left: 5em;
+    margin-right: 5em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    transition: 1.5s;
+}
+
+.box{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid red;
+    width:10em;
+    height: 10em;
+
+    top:30vh;
+
+    box-shadow: 0px 0px 1px 1px #fff;
+    -webkit-box-shadow: 0px 0px 1px 1px #fff;
+    background: white;
+
+    transition: 0.5s;
+}
+
+.box:hover{
+ width:10.5em;
+ height:10.5em;
+}
